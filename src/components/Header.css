@@ -1,0 +1,41 @@
+/* Header全体のコンテナ */
+.header-container {
+  position: relative;
+  width: 100%;
+  height: 60px; /* ヘッダーの高さを調整 */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: white; /* 背景の白いボックス */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* ヘッダーに影をつける（任意） */
+  z-index: 2; /* 他の要素の上に表示 */
+}
+
+/* タイトルテキストのスタイル */
+.header-text-container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); /* テキストを中央揃え */
+}
+
+.header-text {
+  color: #707070;
+  font-size: 20px;
+  font-family: 'Hiragino Kaku Gothic ProN', sans-serif;
+  font-weight: 300;
+  word-wrap: break-word;
+}
+
+/* メニューバーアイコンのスタイル */
+.menu-bar {
+  position: absolute; /* 絶対位置 */
+  left: 20px; /* 左から20pxの位置に配置 */
+  top: 25%;
+}
+
+.menu-bar-line {
+  width: 30px;
+  height: 5px;
+  background-color: #707070;
+  margin: 4px 0;
+}
