@@ -10,7 +10,7 @@ function App() {
       <div>
         <div style={{ maxWidth: 500, maxHeight: 1000, position: 'relative',marginTop: '60px' }}>
         <img
-          src="/topimage.png"
+          src={`${process.env.PUBLIC_URL}/topimage.png`}
           alt="Top Logo"
           style={{
             width:'100%',
