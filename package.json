@@ -23,9 +23,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "rm": "rm -rf docs",
-    "mv": "mv build docs",
-    "git": "git add . && git commit -m 'Deploy to GitHub Pages' && git push origin main",
+    "rm": "shx rm -rf docs",
+    "mkdir-docs": "shx mkdir -p docs",
+    "mv": "npm run mkdir-docs && shx mv build/* docs/",
+    "git": "git add . && git commit -m \"Deploy to GitHub Pages\" && git push origin main",
     "deploy": "npm run rm && npm run build && npm run mv && npm run git"
   },
   "eslintConfig": {
@@ -49,6 +50,7 @@
   "devDependencies": {
     "@eslint/js": "^9.10.0",
     "@typescript-eslint/parser": "^5.62.0",
+    "cross-env": "^7.0.3",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.6.3",
@@ -58,6 +60,8 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "gh-pages": "^6.1.1",
     "globals": "^15.9.0",
-    "prettier": "^3.3.3"
+    "prettier": "^3.3.3",
+    "rimraf": "^6.0.1",
+    "shx": "^0.3.4"
   }
 }
