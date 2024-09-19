@@ -28,7 +28,11 @@ function Footer() {
             <FontAwesomeIcon icon={faXTwitter} />
           </a>
         </div>
-        <div className="footer-email">Email: 2024inbetween@gmail.com</div>
+        <div className="footer-email">
+          <span>Email:</span>
+          <span>2024inbetween@gmail.com</span>
+        </div>
+
       </div>
     </div>
   );

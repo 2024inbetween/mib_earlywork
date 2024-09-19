@@ -6,6 +6,12 @@
   padding: 20px 0; /* フッター内の上下パディング */
 }
 
+@media(max-width:600px){
+  .footer-container{
+    height:180px;
+  }
+}
+
 .footer-content {
   display: flex; /* 横並びに配置 */
   justify-content: space-between; /* 要素を均等に配置 */
@@ -88,4 +94,21 @@
 
 .footer-email {
   margin-top: 2vh;
+  display: flex;
+  align-items: center; /* 横方向の中央揃え */
+  text-align: center; /* 全体を中央揃え */
+}
+
+.footer-email span {
+  white-space: nowrap; /* 通常は同じ行に表示 */
+}
+
+@media (max-width: 600px) {
+  .footer-email {
+    flex-direction: column; /* 600px以下で縦に並べる */
+  }
+
+  .footer-email span:first-child {
+    margin-bottom: 5px; /* Email: とアドレスの間の余白を調整 */
+  }
 }
