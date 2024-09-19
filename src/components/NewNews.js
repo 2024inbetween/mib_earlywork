@@ -4,13 +4,13 @@ import './NewNews.css';
 function NewNews() {
   return (
     <div style={{
-      width: '80%',        // 横幅に応じて80%の幅に設定
-      maxWidth: '600px',   // 最大幅を600pxに制限
-      margin: '0 auto',    // 水平中央に配置
-      padding: '20px',     // ボックス内の余白
-      backgroundColor: '#fff',  // 背景色
+      width: '80%',
+      maxWidth: '600px',
+      margin: '0 auto',
+      padding: '20px',
+      backgroundColor: '#fff',
       border: '1px solid #00144E',
-      boxSizing: 'border-box',  // パディングを含むようにする
+      boxSizing: 'border-box',
       }}>
       <h1 style={{ fontSize: '1.5em', color: '#00144E',textAlign: 'left' }}>NEWS</h1>
       <div style={{width: '100%', height: 0, border: '1px #00134E solid'}}></div>
@@ -22,7 +22,7 @@ function NewNews() {
       </p>
       {/* 詳しく見るリンク */}
       <p style={{ fontSize: '0.9em', color: '#707070', textAlign: 'right' }}>
-        <a href="#" style={{ color: '#707070', textDecoration: 'none' }}>詳しく見る＞</a>
+        <a href="/" style={{ color: '#707070', textDecoration: 'none' }}>詳しく見る＞</a>
       </p>
       <div style={{width: '100%', height: 0, border: '1px #00134E solid'}}></div>
       {/* タイトル */}
@@ -33,7 +33,11 @@ function NewNews() {
       </p>
       {/* 詳しく見るリンク */}
       <p style={{ fontSize: '0.9em', color: '#707070', textAlign: 'right' }}>
-        <a href="#" style={{ color: '#707070', textDecoration: 'none' }}>詳しく見る＞</a>
+        <a href="/" style={{ color: '#707070', textDecoration: 'none' }}>詳しく見る＞</a>
+      </p>
+      <div style={{width: '100%', height: 0, border: '1px #00134E solid'}}></div>
+      <p style={{ fontSize: '0.9em', color: '#707070', textAlign: 'right' }}>
+        <a href="/" style={{ color: '#707070', textDecoration: 'none' }}>全てのNEWSを見る＞</a>
       </p>
     </div>
   );

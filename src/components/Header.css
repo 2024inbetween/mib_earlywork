@@ -8,7 +8,7 @@
   justify-content: flex-start;
   background-color: white; /* 背景の白いボックス */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* ヘッダーに影をつける（任意） */
-  z-index: 2; /* 他の要素の上に表示 */
+  z-index: 1000000; /* 他の要素の上に表示 */
 }
 
 /* タイトルテキストのスタイル */

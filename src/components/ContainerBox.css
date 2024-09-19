@@ -1,0 +1,38 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap; /* アイテムを折り返す設定 */
+  justify-content: center; /* アイテムを中央に揃える */
+  gap: 30px; /* ボックス間のスペース */
+  max-width: 1000px; /* コンテナ全体の幅を調整 */
+  margin: 0 auto; /* コンテナをページ中央に配置 */
+}
+
+.flex-item {
+  background-color: #00144e; /* 背景色 */
+  color: white; /* 文字色 */
+  padding: 15px;
+  text-align: left;
+  width: calc(40% - 30px); /* 2列にするための計算 */
+  box-sizing: border-box;
+  height: 250px; /* ボックスの高さを固定 */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flex-item h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.flex-item p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.flex-item a {
+  align-self: flex-end; /* リンクをボックスの下に配置 */
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}

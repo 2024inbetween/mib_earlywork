@@ -1,0 +1,56 @@
+.event-schedule {
+  font-family: "Hiragino Sans", sans-serif;
+  color: #666666;
+  font-size: 16px;
+  text-align: center; /* テキストを中央に配置 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0; /* 不要な外側の余白を削除 */
+}
+
+.event-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* コンテンツを中央揃え */
+  gap: 10px;
+}
+
+.event-row {
+  display: flex;
+  justify-content: space-between;
+  width: 350px; /* 日付と時間の幅を調整 */
+  margin-bottom: 10px; /* 各行の間隔 */
+}
+
+.event-location {
+  margin-top: 20px; /* 開催日時と場所の間隔 */
+  font-size: 16px;
+  color: #666666;
+  text-align: center;
+}
+
+.event-label {
+  flex-shrink: 0;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.event-date-time {
+  display: flex;
+  flex-direction: column;
+}
+
+.event-row span:first-child {
+  margin-right: 20px; /* 日付と時間の間隔 */
+}
+
+.event-location .address {
+  font-size: 14px; /* 住所部分を少し小さく */
+  color: #999999; /* 住所部分の色を少し淡く */
+}
+
+.event-location p {
+  margin: 10px 0; /* 各行の間隔を整える */
+}

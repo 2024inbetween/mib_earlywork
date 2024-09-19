@@ -2,6 +2,11 @@ import './App.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import NewNews from './components/NewNews'
+import Date from './components/Date'
+import ContainerBox from './components/ContainerBox'
+import SliderComponent from './components/SliderComponent'
+import InstagramPost from './components/InstagramPost'
+
 
 function App() {
   return (
@@ -28,8 +33,20 @@ function App() {
       <p>美術家の野老朝雄さんが講師を務める東京大学の授業「造形第六」で学生が制作した作品を展示します。  造形第六では2014年以降”CONDITION  SPECIFIC”という通底するテーマに沿って作品が制作され、建築という枠組みを超えた表現が試みられてきました。</p>
       <p>今年度はサブテーマ”MAKING  INBETWEEN”を起点としてグラフィックや彫刻、ソフトウェアなど、さまざまなメディアを用いた5つの作品が制作されました。 体験型の作品や手にとってご覧いただける作品も多くございますので、老若男女問わずお越しください。</p>
       </div>
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '50vh' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '50vh' ,marginTop: '40px',marginBottom:'80px'}}>
         <NewNews />
+      </div>
+      <div style={{marginBottom:('80px')}}>
+        <Date />
+      </div>
+      <div style={{marginBottom:('80px')}}>
+        <ContainerBox />
+      </div>
+      <div style={{marginBottom:('80px')}}>
+        <SliderComponent />
+      </div>
+      <div style={{marginBottom:('80px')}}>
+        <InstagramPost />
       </div>
       <div>
         <Footer />
