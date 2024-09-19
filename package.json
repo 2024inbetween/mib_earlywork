@@ -26,7 +26,7 @@
     "rm": "shx rm -rf docs",
     "mkdir-docs": "shx mkdir -p docs",
     "mv": "npm run mkdir-docs && shx mv build/* docs/",
-    "git": "git add . && git commit -m \"Deploy to GitHub Pages\" && git push origin main",
+    "git": "git add . && git commit -m \"Deploy to GitHub Pages\" || echo 'Nothing to commit' && git push origin main",
     "deploy": "npm run rm && npm run build && npm run mv && npm run git"
   },
   "eslintConfig": {
