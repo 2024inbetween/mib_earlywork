@@ -1,5 +1,7 @@
 import React from 'react';
 import './Header.css';  // CSSをインポート
+import { slide as Menu } from 'react-burger-menu';
+
 
 function Header() {
   return (
@@ -13,11 +15,12 @@ function Header() {
       </div>
 
       {/* メニューバーアイコン */}
-      <div className="menu-bar">
-        <div className="menu-bar-line"></div>
-        <div className="menu-bar-line"></div>
-        <div className="menu-bar-line"></div>
-      </div>
+      <Menu>
+        <a className="menu-item" href="/">Home</a>
+        <a className="menu-item" href="/">About</a>
+        <a className="menu-item" href="/">Services</a>
+        <a className="menu-item" href="/">Contact</a>
+      </Menu>
     </div>
   );
 }
