@@ -52,9 +52,21 @@
   }  
 }
 
-.flex-item a {
-  align-self: flex-end; /* リンクをボックスの下に配置 */
-  color: white;
+.flex-item .learn {
+  margin-top: auto;  /* 縦方向でボックスの一番下に配置 */
+  align-self: flex-end;  /* 横方向で右端に揃える */
+  color: white !important;
   text-decoration: none;
   font-size: 14px;
 }
+
+.learn a {
+  color: white !important;  /* リンクの文字色を強制的に白にする */
+  text-decoration: none;    /* 下線を削除 */
+  font-size: 14px;
+}
+
+.learn a:hover {
+  color: #cccccc;  /* ホバー時の文字色を変更 */
+}
+

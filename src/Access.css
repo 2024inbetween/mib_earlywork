@@ -1,0 +1,43 @@
+.access-text1 h2{
+    padding-left:30px;
+    font-weight:400;
+}
+
+.access-text1 h1{
+    padding-left:60px;
+    font-weight:500;
+}
+
+.access-text1 p{
+    padding-left:60px;
+    font-weight:500;
+}
+
+.access-text2 h2{
+    padding-left:30px;
+    font-weight:400;
+}
+
+.access-text2 h1{
+    padding-left:60px;
+    font-weight:500;
+}
+
+.access-text2 p{
+    padding-left:60px;
+    font-weight:400;
+    margin-bottom:30px;
+}
+
+.wakan{
+    padding-left:70px;
+    padding-right:70px;
+    font-weight:400;
+    font-size: 12px;
+    padding-top: 30px;
+}
+
+.mapToWakan{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}

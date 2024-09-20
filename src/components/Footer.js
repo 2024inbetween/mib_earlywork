@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link} from 'react-router-dom';
 import './Footer.css';  // CSSファイルをインポート
 
 // Font Awesomeのライブラリからアイコンをインポート
@@ -6,15 +7,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
+
   return (
     <div className="footer-container">
       <div className="footer-background"></div>
 
       <div className="footer-links">
-        <div className="footer-link">TOP</div>
-        <div className="footer-link">ACCESS</div>
-        <div className="footer-link">ABOUT US</div>
-        <div className="footer-link">FONT</div>
+        <div className="footer-link"><Link to="/">TOP</Link></div>
+        <div className="footer-link"><Link to="/Access">ACCESS</Link></div>
+        <div className="footer-link"><Link to="/About">ABOUT US</Link></div>
+        <div className="footer-link"><Link to="/AboutFont">FONT</Link></div>
       </div>
 
       <div className="footer-contact">
