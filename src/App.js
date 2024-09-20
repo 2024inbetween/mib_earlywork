@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
 import Access from './Access';
@@ -34,7 +34,7 @@ function App() {
 
 export default function MainApp() {
   return (
-    <Router basename="/mib">  {/* App全体をRouterでラップ */}
+    <Router>  {/* App全体をRouterでラップ */}
       <App />
     </Router>
   );
