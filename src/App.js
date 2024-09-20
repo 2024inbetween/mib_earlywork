@@ -34,7 +34,7 @@ function App() {
 
 export default function MainApp() {
   return (
-    <Router>  {/* App全体をRouterでラップ */}
+    <Router basename="/mib">  {/* App全体をRouterでラップ */}
       <App />
     </Router>
   );
