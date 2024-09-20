@@ -108,3 +108,16 @@
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
 }
+
+.menu-item {
+  color: white;
+  font-size: 12; /* 画面幅に基づいたフォントサイズ */
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+.menu-item a {
+  color: white;  /* 文字色を白に設定 */ 
+  text-decoration: none;
+}

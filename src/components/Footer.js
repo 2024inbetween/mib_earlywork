@@ -20,7 +20,6 @@ function Footer() {
       </div>
 
       <div className="footer-contact">
-        <div>CONTACT</div>
         <div className="footer-follow">
           FOLLOW US<br/>
           <a href="https://www.instagram.com/utokyoarchitecture2024?igsh=MmVIMjlkMTBhMg==" target="_blank" rel="noopener noreferrer">
