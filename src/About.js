@@ -41,7 +41,7 @@ function About(){
                 </div>
                 <div className='teamMenber migi'>
                     <span>Saki Kanouchi</span>
-                    <span>Ryo Sakai</span>
+                    <span>Hiroka Tsuyoshi</span>
                     <span>Sae Fujinaga</span>
                     <span>Jun Takaura</span>
                     <span>Taiga Yamaguchi</span>
@@ -111,7 +111,7 @@ function About(){
                 本展示の開催にあたり、運営チームを発足いたしました。<br/>
                 ここでは、様々な業務に携わったメンバーをご紹介いたします。
                 </div>
-                
+
                 <div className='teamTitle'>
                     Operational Management
                 </div>
@@ -172,7 +172,7 @@ function About(){
                 <div className='teamMenber migi'>   
                     <span>Suzuka Shoji</span>
                     <span>Kaisei Ota</span>
-                    <span>Ryo Sakai</span>
+                    <span>Hiroka Tshuyoshi</span>
                 </div>
 
                 <div className='teamTitle'>
