@@ -5,6 +5,8 @@ import Home from './Home';
 import About from './About';
 import Access from './Access';
 import AboutFont from './AboutFont';
+import News from './News';
+import Works from './Works';
 import Footer from './components/Footer';
 import Header from './components/Header';
 
@@ -27,6 +29,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/access" element={<Access />} />
         <Route path="/aboutfont" element={<AboutFont />} />
+        <Route path="/news" element={<News />} />
+        <Route path="/works" element={<Works />} />
       </Routes>
       <Footer />
     </div>

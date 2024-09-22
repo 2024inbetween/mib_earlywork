@@ -23,13 +23,13 @@ function ContainerBox() {
     <div className="flex-item">
       <h2>WORKS</h2>
       <p>Coming soon ...</p>
-      <div className='learn'><Link to="/">Learn more ＞</Link></div>
+      <div className='learn'><Link to="/Works">Learn more ＞</Link></div>
     </div>
 
     <div className="flex-item">
       <h2>NEWS</h2>
       <p>近日公開予定のニュースをチェックしてください。</p>
-      <div className='learn'><Link to="/">Learn more ＞</Link></div>
+      <div className='learn'><Link to="/News">Learn more ＞</Link></div>
     </div>
   </div>
   )

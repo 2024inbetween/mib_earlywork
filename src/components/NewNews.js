@@ -1,5 +1,6 @@
 import React from 'react';
 import './NewNews.css';
+import { Link} from 'react-router-dom';
 
 function NewNews() {
   return (
@@ -37,7 +38,7 @@ function NewNews() {
       </p>
       <div style={{width: '100%', height: 0, border: '1px #00134E solid'}}></div>
       <p style={{ fontSize: '0.9em', color: '#707070', textAlign: 'right' }}>
-        <a href="/" style={{ color: '#707070', textDecoration: 'none' }}>全てのNEWSを見る＞</a>
+        <Link to="/News" style={{ color: '#707070', textDecoration: 'none' }}>全てのNEWSを見る＞</Link>
       </p>
     </div>
   );

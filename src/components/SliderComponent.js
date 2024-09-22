@@ -9,7 +9,7 @@ import './SliderComponent.css'; // CSSファイルをインポート
 function SliderComponent() {
   return (
     <div className="slider-container">
-        <div className="slider-title" style={{fontSize:50,color: '#00144E',marginBottom:20}}>
+        <div className="slider-title" style={{fontSize:50,color: '#00144E',paddingBottom:50,fontWeight:800,textShadow: '1px 1px 2px'}}>
             contents
         </div>
       <Swiper
