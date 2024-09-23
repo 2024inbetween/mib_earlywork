@@ -8,6 +8,7 @@ import AboutFont from './AboutFont';
 import News from './News';
 import Works from './Works';
 import NewsDetail from './NewsDetail';
+import WorksDetail from './WorksDetail';
 import Footer from './components/Footer';
 import Header from './components/Header';
 
@@ -51,6 +52,7 @@ function App() {
         <Route path="/news" element={<News />} />
         <Route path="/works" element={<Works />} />
         <Route path="/news/:id" element={<NewsDetail />} />
+        <Route path="/works/:id" element={<WorksDetail />} />
       </Routes>
       <Footer />
     </div>
