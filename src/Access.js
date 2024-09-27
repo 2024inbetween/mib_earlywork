@@ -17,10 +17,10 @@ function Access(){
             />
             <div className='access-text1'>
                 <h2>会場</h2>
-                <h1>三段坂の和館</h1>
+                <p>三段坂の和館</p>
                 <h2>住所</h2>
                 <p>〒110-0008 東京都台東区池之端 4-17-7</p>
-                <div className='wakan'>和館の場所がわかんない！という人は下のマップをご参照ください。</div>
+                <div className='wakan'>和館の場所が<span class="ten">わかん</span>ない！という人は下のマップをご参照ください。</div>
             </div>
             <div className='mapTitle' style={{textAlign:'center',fontSize:'30px',paddingTop:'50px'}}>MAP</div>
             <div className='mapToWakan'>

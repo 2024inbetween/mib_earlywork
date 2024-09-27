@@ -41,7 +41,6 @@
 
 .teamMenber span {
     display: block; /* 一行に一人ずつ表示 */
-    font-style: italic; /* メンバー名を斜体に */
     color: #333;
     margin-bottom: 5px; /* 名前同士の間に少し余白を追加 */
 }

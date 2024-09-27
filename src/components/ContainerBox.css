@@ -37,18 +37,17 @@
 .flex-item h2 {
   font-size: 18px;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
 }
 
-.flex-item p {
+.flex-item .summary {
   font-size: 14px;
-  margin-bottom: 10px;
 }
 
 @media (max-width: 600px){
-  .flex-item p {
+  .flex-item .summary {
     font-size: 12px;
-    margin-bottom: 0px;
+    line-height: 1.5;
   }  
 }
 

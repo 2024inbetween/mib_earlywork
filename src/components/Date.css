@@ -1,6 +1,6 @@
 .event-schedule {
   font-family: "Hiragino Sans", sans-serif;
-  color: #666666;
+  color: black;
   font-size: 16px;
   text-align: center; /* テキストを中央に配置 */
   display: flex;
@@ -27,7 +27,7 @@
 .event-location {
   margin-top: 20px; /* 開催日時と場所の間隔 */
   font-size: 16px;
-  color: #666666;
+  color:black;
   text-align: center;
 }
 
@@ -48,7 +48,7 @@
 
 .event-location .address {
   font-size: 14px; /* 住所部分を少し小さく */
-  color: #999999; /* 住所部分の色を少し淡く */
+  color: black; /* 住所部分の色を少し淡く */
 }
 
 .event-location p {

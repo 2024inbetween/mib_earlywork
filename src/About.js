@@ -38,11 +38,11 @@ function About(){
                     有と無
                 </div>
                 <div className='teamMenber'>
-                    <span>Mai Kawakami</span>
                     <span>Lisa Kudo</span>
-                    <span>Yuuka Sayama</span>
+                    <span>Mai Kawakami</span>
                     <span>Mayu Watanabe</span>
                     <span>Suzuka Shoji</span>
+                    <span>Yuuka Sayama</span>
                 </div>
 
                 <div className='teamTitle migi'>
@@ -52,13 +52,13 @@ function About(){
                     多様なメディアの調和を探求
                 </div>
                 <div className='teamMenber migi'>
-                    <span>Saki Kanouchi</span>
                     <span>Hiroka Tsuyoshi</span>
-                    <span>Sae Fujinaga</span>
                     <span>Jun Takaura</span>
+                    <span>Sae Fujinaga</span>
+                    <span>Saki Kanouchi</span>
+                    <span>Shuji Hisatomi</span>
                     <span>Taiga Yamaguchi</span>
                     <span>Yuki Watanabe</span>
-                    <span>Shuji Hisatomi</span>
                 </div>
 
                 <div className='teamTitle'>
@@ -68,12 +68,12 @@ function About(){
                     光と影の対立を表現
                 </div>
                 <div className='teamMenber'>
-                    <span>Kenjiro Kawai</span>
                     <span>Akira Takeuchi</span>
                     <span>Ikumi Hirai</span>
+                    <span>Kai Matsumoto</span>
+                    <span>Kenjiro Kawai</span>
                     <span>Tomoya Matsuki</span>
                     <span>Yuki Matsuhisa</span>
-                    <span>Kai Matsumoto</span>
                 </div>
 
                 <div className='teamTitle migi'>
@@ -83,12 +83,12 @@ function About(){
                     都市と故郷をつなぐアート
                 </div>
                 <div className='teamMenber migi'>
-                    <span>Mebuki Kanda</span>
-                    <span>Yuri Sakomoto</span>
-                    <span>Ryo Sakai</span>
-                    <span>Issa Takagi</span>
                     <span>Akira Takeuchi</span>
+                    <span>Issa Takagi</span>
+                    <span>Mebuki Kanda</span>
+                    <span>Ryo Sakai</span>
                     <span>Shuji Hisatomi</span>
+                    <span>Yuri Sakomoto</span>
                 </div>
 
                 <div className='teamTitle'>
@@ -98,22 +98,19 @@ function About(){
                     言語を超えた表現の探求
                 </div>
                 <div className='teamMenber'>
-                    <span>Shunsuke Oshima</span>
+                    <span>Eisuke Takahashi</span>
                     <span>Kaisei Ota</span>
                     <span>Kenjiro Kawai</span>
                     <span>Lisa Kudo</span>
+                    <span>Masato Tominaga</span>
+                    <span>Mayu Watanabe</span>
+                    <span>Shuji Hisatomi</span>
+                    <span>Shunsuke Oshima</span>
                     <span>Suzuka Shoji</span>
                     <span>Yuri Sakomoto</span>
-                    <span>Eisuke Takahashi</span>
-                    <span>Masato Tominaga</span>
-                    <span>Shuji Hisatomi</span>
-                    <span>Mayu Watanabe</span>
                 </div>
-                </div>
+            </div>
             
-                
-
-
             <div className='operationTeam'>
                 <div className='sectionTitle'>
                 Oparation Team
@@ -131,9 +128,9 @@ function About(){
                     全体の統括
                 </div>
                 <div className='teamMenber'>
-                    <span>Shuji Hisatomi</span>
+                    <span>Issa Takagi</span>
                     <span>Saki Kanouchi</span>
-                    <span>Issa Takagi</span>    
+                    <span>Shuji Hisatomi</span>    
                 </div>
 
                 <div className='teamTitle migi'>
@@ -143,16 +140,16 @@ function About(){
                     ポスターなどのデザイン
                 </div>
                 <div className='teamMenber migi'>
+                    <span>Ikumi Hirai</span>
+                    <span>Issa Takagi</span>
+                    <span>Jun Takaura</span>
+                    <span>Kai Matsumoto</span>
+                    <span>Mayu Watanabe</span>
                     <span>Ozan Ishii</span>
                     <span>Shuji Hisatomi</span>
-                    <span>Yuki Matsuhisa</span>
-                    <span>Kai Matsumoto</span>
-                    <span>Issa Takagi</span>
-                    <span>Mayu Watanabe</span>
-                    <span>Yuuka Sayama</span>
                     <span>Tomoya Matsuki</span>
-                    <span>Jun Takaura</span>
-                    <span>Ikumi Hirai</span>
+                    <span>Yuki Matsuhisa</span>
+                    <span>Yuuka Sayama</span>
                 </div>
 
                 <div className='teamTitle'>
@@ -162,17 +159,17 @@ function About(){
                     SNS,ホームページの運用
                 </div>
                 <div className='teamMenber'>
-                    <span>Ozan Ishii</span>
-                    <span>Kai Matsumoto</span>
-                    <span>Mai Kawakami</span>
+                    <span>Ikumi Hirai</span>
                     <span>Issa Takagi</span>
-                    <span>Saki Kanouchi</span>
                     <span>Jun Takaura</span>
+                    <span>Kai Matsumoto</span>
+                    <span>Mebuki Kanda</span>
+                    <span>Mai Kawakami</span>
+                    <span>Ozan Ishii</span>
+                    <span>Sae Fujinaga</span>
+                    <span>Saki Kanouchi</span>
                     <span>Yuki Watanabe</span>
                     <span>Yuri Sakomoto</span>
-                    <span>Ikumi Hirai</span>
-                    <span>Sae Fujinaga</span>
-                    <span>Mebuki Kanda</span>
                 </div>
 
                 <div className='teamTitle migi'>
@@ -182,9 +179,9 @@ function About(){
                     会計作業
                 </div>
                 <div className='teamMenber migi'>   
-                    <span>Suzuka Shoji</span>
-                    <span>Kaisei Ota</span>
                     <span>Hiroka Tshuyoshi</span>
+                    <span>Kaisei Ota</span>
+                    <span>Suzuka Shoji</span>
                 </div>
 
                 <div className='teamTitle'>
@@ -194,18 +191,18 @@ function About(){
                     会場の動線計画やサイン計画
                 </div>
                 <div className='teamMenber'>
-                    <span>Shuji Hisatomi</span>
-                    <span>Kai Matsumoto</span>
-                    <span>Suzuka Shoji</span>
-                    <span>Kaisei Ota</span>
-                    <span>Mai Kawakami</span>
                     <span>Eisuke Takahashi</span>
                     <span>Issa Takagi</span>
-                    <span>Mayu Watanabe</span>
-                    <span>Tomoya Matsuki</span>
+                    <span>Kaisei Ota</span>
+                    <span>Kai Matsumoto</span>
+                    <span>Mai Kawakami</span>
                     <span>Masato Tominaga</span>
-                    <span>Yuri Sakomoto</span>
                     <span>Mebuki Kanda</span>
+                    <span>Mayu Watanabe</span>
+                    <span>Shuji Hisatomi</span>
+                    <span>Suzuka Shoji</span>
+                    <span>Tomoya Matsuki</span>
+                    <span>Yuri Sakomoto</span>
                 </div>
 
                 <div className='teamTitle migi'>
@@ -215,10 +212,10 @@ function About(){
                     外部とのやりとり
                 </div>
                 <div className='teamMenber migi'>
+                    <span>Issa Takagi</span>
+                    <span>Saki Kanouchi</span>
                     <span>Shuji Hisatomi</span>
                     <span>Tomoya Matsuki</span>
-                    <span>Saki Kanouchi</span>
-                    <span>Issa Takagi</span>
                 </div>
             </div>
         </div>
