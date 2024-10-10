@@ -1,4 +1,4 @@
-name: Node.js Deploy Workflow
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -10,21 +10,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # コードをチェックアウト
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      # Node.jsをセットアップ
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: "14"
+          node-version: "16"
 
+      # 依存関係をインストール
       - name: Install dependencies
         run: npm install
 
+      # プロジェクトをビルド
       - name: Build the project
         run: npm run build
 
-      - name: Deploy to server
+      # GitHub Pagesにデプロイ
+      - name: Deploy to GitHub Pages
         run: |
-          echo "Deploying the project..."
-          # デプロイスクリプトをここに記述
+          npm run deploy

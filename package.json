@@ -18,18 +18,18 @@
     "swiper": "^11.1.14",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "cross-env HOST=0.0.0.0 react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "rm": "shx rm -rf docs",
-    "mkdir-docs": "shx mkdir -p docs",
-    "mv": "npm run mkdir-docs && shx mv build/* docs/",
-    "git": "git add . && git commit -m \"Deploy to GitHub Pages\" || echo 'Nothing to commit' && git push origin main",
-    "deploy": "npm run rm  && npm run mv && npm run git&& npm run build"
-  },
+"scripts": {
+  "start": "cross-env HOST=0.0.0.0 react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "predeploy": "npm run build",
+  "rm": "shx rm -rf docs",
+  "mkdir-docs": "shx mkdir -p docs",
+  "mv": "npm run mkdir-docs && shx mv build/* docs/",
+  "git": "git add . && git commit -m \"Deploy to GitHub Pages\" || echo 'Nothing to commit' && git push origin main",
+  "deploy": "npm run build && npm run rm && npm run mv && npm run git"
+},
   "eslintConfig": {
     "extends": [
       "react-app",
