@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main # mainブランチにプッシュされたときに実行
+      - main
 
 jobs:
   build:
@@ -12,11 +12,11 @@ jobs:
     steps:
       # コードをチェックアウト
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3 # バージョンをv3に更新
 
       # Node.jsをセットアップ
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v3 # 最新のv3に更新
         with:
           node-version: "16"
 
