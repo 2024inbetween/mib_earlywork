@@ -1,8 +1,9 @@
 import './Home.css'
-import NewNews from './components/NewNews'
+import React from 'react'
+//import NewNews from './components/NewNews'
 import Date from './components/Date'
 import ContainerBox from './components/ContainerBox'
-import SliderComponent from './components/SliderComponent'
+//import SliderComponent from './components/SliderComponent'
 import InstagramPost from './components/InstagramPost'
 
 
